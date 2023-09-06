@@ -386,14 +386,18 @@ import { translate } from '@docusaurus/Translate';
 		{
 			device: '<b>Tablet</b>',
 			os: 'Android<br/>iOS<br/>Windows',
-			browser: 'Chrome<br/>Firefox<br/>Edge<br/>Opera<br/>Safari (nur MacOS)',
+			browser: 'Chrome<br/>Firefox<br/>Edge<br/>Opera<br/>Safari (nur iPadOS)',
+			screenreader: 'TalkBack (nur Android)<br/>VoiceOver (nur iPadOS)',
 		},
 		{
 			device: '<b>Mobil</b>',
 			os: 'Android<br/>iOS',
-			browser: 'Chrome<br/>Firefox<br/>Edge<br/>Opera<br/>Safari (nur MacOS)',
-			screenreader: 'TalkBack (nur Android)',
+			browser: 'Chrome<br/>Firefox<br/>Edge<br/>Opera<br/>Safari (nur iOS)',
+			screenreader: 'TalkBack (nur Android)<br/>VoiceOver (nur iOS)',
 		},
 	]}
 ></KolTable>
+<kol-indented-text>
+    Anmerkung: Auf iOS und iPadOS steht als Renderengine - auf Grund von Beschränkungen durch Apple - nur Safari´s Webkit-Engine für alle Browser zur Verfügung.  
+</kol-indented-text>
 <p />
